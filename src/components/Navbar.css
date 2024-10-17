@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-logo {
+  width: 100px;
+}

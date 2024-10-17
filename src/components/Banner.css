@@ -1,0 +1,43 @@
+.banner {
+  background-image: url("https://th.bing.com/th/id/OIP.HtysPVYN2o_cRhSP5FFnXAHaEK?rs=1&pid=ImgDetMain"); /* Replace with a high-quality image */
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 448px;
+  padding-top: 140px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.banner-contents {
+  max-width: 600px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-buttons .banner-button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner-fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
