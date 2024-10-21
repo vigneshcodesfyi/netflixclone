@@ -1,0 +1,40 @@
+/* ReasonsToJoin.css */
+.reasons-to-join {
+    background-color: #141414; /* Dark background like Netflix */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .reasons-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    justify-content: space-between; /* Spacing between blocks */
+  }
+  
+  .reason-block {
+    background: linear-gradient(135deg, #9b59b6, #2c3e50); /* Gradient from violet to black */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1; /* Allow blocks to grow equally */
+    min-width: 220px; /* Minimum width for each block */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add box shadow on hover */
+  }
+  
+  .reason-block:hover {
+    transform: scale(1.05); /* Hover effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+  }
+  
+  .reason-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .reason-description {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+  }
+  

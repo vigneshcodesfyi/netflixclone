@@ -1,0 +1,47 @@
+
+.main-container {
+
+    text-align: center; 
+    padding: 40px 20px; 
+    color: white; 
+    height:70vh;
+  }
+  
+  .main-title {
+    font-size: 60px; 
+    margin-bottom: 20px; /
+  }
+  
+  .main-subtitle {
+    font-size:20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .email-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .email-input {
+    padding: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    width: 400px; 
+    height: 40px;
+  }
+  
+  .get-started-button {
+    background-color: #e50914; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  .get-started-button:hover {
+    background-color: #f40612;
+  }
+  

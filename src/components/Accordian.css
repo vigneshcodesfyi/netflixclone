@@ -1,0 +1,36 @@
+/* src/Accordion.css */
+
+.accordion {
+  color:white;
+    width: 100%;
+    max-width: 80%;
+    margin: 20px auto;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  
+h1{
+  font-size: 30px;
+}
+  .accordion-title {
+    background-color: #302a2a;
+    padding: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .accordion-content {
+    padding: 20px;
+
+    background-color: #ffffff;
+  }
+  
+  .accordion-icon {
+
+
+    margin-left: 10px;
+  }
+  

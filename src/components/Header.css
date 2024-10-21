@@ -1,0 +1,41 @@
+
+.header {
+
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 40px 100px;
+}
+
+.header-logo img {
+  height: 80px; 
+}
+
+.header-right {
+  display: flex; 
+  align-items: center; 
+}
+
+.header-language-selector {
+  margin-right: 10px;
+}
+
+.header-language-selector select {
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.header-signin .signin-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-signin .signin-button:hover {
+  background-color: #f40612; 
+}
