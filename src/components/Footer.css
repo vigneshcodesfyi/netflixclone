@@ -1,18 +1,17 @@
-/* src/components/Footer.css */
 
 .footer {
-    background-color: #141414; /* Footer background color */
-    color: white; /* Text color */
-    padding: 20px; /* Padding for the footer */
-    text-align: center; /* Center the text */
+  
+    color: white;
+    padding: 20px; 
+    text-align: center; 
   }
   
   .footer-email-container {
-    margin-bottom: 20px; /* Space below the email container */
+    margin-bottom: 20px; 
   }
   
   .footer-title {
-    margin-bottom: 10px; /* Space below the title */
+    margin-bottom: 10px; 
   }
   
   .footer-email-input {

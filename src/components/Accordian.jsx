@@ -1,8 +1,7 @@
 // src/Accordion.js
 
 import React, { useState } from 'react';
-import './Accordian.css'; // Import the CSS file
-
+import './Accordian.css';
 const AccordionItem = ({ title, content, isOpen, onToggle }) => {
   return (
     <div className="accordion-item">

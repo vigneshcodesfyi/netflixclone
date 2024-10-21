@@ -1,4 +1,3 @@
-// JoinUsSection.js
 import React from 'react';
 import ReasonsToJoin from './ReasonsToJoin';
 
